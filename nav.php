@@ -8,7 +8,7 @@
 ?>
 <nav class="navbar navbar-expand-lg bg-dark fixed-top">
     <div class="container">
-        <a class="navbar-brand" href="#"><img src="assets/img/logo-aplicaen.png"></a>
+        <a class="navbar-brand" href="index.php"><img src="assets/img/logo-aplicaen.png"></a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
                 aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,14 +21,16 @@
                     <a class="nav-link" href="#">Nos prestations</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Notre équipe</a>
+                    <a class="nav-link" href="team.php">Notre équipe</a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <button class="btn btn-warning btn-round">Demander un devis</button>
+                    <button class="btn btn-info btn-round">Demander un devis</button>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
+<br>
+<br>
