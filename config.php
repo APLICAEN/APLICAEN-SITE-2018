@@ -6,6 +6,10 @@
  * Time: 18:06
  */
 
+ini_set('display_errors', 'On');
+error_reporting(E_ALL);
+
+
 ?>
 <link href="assets/css/index.css" rel="stylesheet" type="text/css" media="all"/>
 <link rel="stylesheet" type="text/css"
