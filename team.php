@@ -9,6 +9,18 @@
 require_once "config.php";
 require_once "nav.php";
 
+$equipe = [
+    ["Achille Godineau", "assets/img/photo_equipe/achille.png", "Président", "Blah", "president@aplicaen.fr"],
+    ["Paul Freifer", "assets/img/photo_equipe/paul.png", "Secrétaire Général", " ", "contact@aplicaen.fr"],
+    ["Julien Chevron", "assets/img/photo_equipe/julien.png", "Responsable Suivi d'Etude", " ", "expert@aplicaen.fr"],
+    ["Antoine Dechavanne", "assets/img/photo_equipe/antoine.png", "Responsable Suivi d'Etude", " ", "expert@aplicaen.fr"],
+    ["Mathieu Seraphim", "assets/img/photo_equipe/mathieu.png", "Responsable Qualité", " ", "qualite@aplicaen.fr"],
+    ["Aurélien Arcangeli", "assets/img/photo_equipe/aurelien.png", "Comptable", " ", "tresorier@aplicaen.fr"],
+    ["Chams-eddine El Hayel", "assets/img/photo_equipe/chams.png", "Trésorier", " ", "tresorier@aplicaen.fr"],
+    ["Rémi Lecouillard", "assets/img/photo_equipe/remi.png", "Responsable Communication", " ", "contact@aplicaen.fr"],
+    ["Iliass Fendi", "assets/img/photo_equipe/iliass.png", "Responsable Développement Commercial", " ", "contact@aplicaen.fr"],
+    ["Pierre Chopinet", "assets/img/photo_equipe/pierre.png", "D.S.I.", " ", "dsi@aplicaen.fr"],
+];
 
 function member($nom, $image, $poste, $description, $mail)
 {
@@ -16,10 +28,10 @@ function member($nom, $image, $poste, $description, $mail)
     ?>
     <div class="container">
         <div class="row justify-content-md-center">
-            <div class="col-10 col-md-4">
+            <div class="col-12 col-md-4">
                 <img src="<?php echo $image ?>" class="img-raised rounded img-fluid">
             </div>
-            <div class="col-10 col-md-6">
+            <div class="col-12 col-md-6">
                 <h3 class="title"> <?php echo $nom ?></h3>
                 <h4><?php echo $poste ?></h4>
                 <p><?php echo $description ?></p>
@@ -76,20 +88,23 @@ function member($nom, $image, $poste, $description, $mail)
                 <div id="carousel" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <?php member("Pierre", "assets/img/photo_equipe/pierre.png", "D.S.I.", "blabla", "dsi@aplicaen.fr"); ?>
+                            <?php member($equipe[0][0], $equipe[0][1], $equipe[0][2], $equipe[0][3], $equipe[0][4]); ?>
                         </div>
-                        <div class="carousel-item">
-                            <?php member("Pierre", "assets/img/photo_equipe/pierre.png", "D.S.I.", "blabla", "dsi@aplicaen.fr"); ?>
-                        </div>
-
+                        <?php
+                        for ($i = 1; $i < sizeof($equipe); $i++) {
+                            ?>
+                            <div class="carousel-item">
+                                <?php member($equipe[$i][0], $equipe[$i][1], $equipe[$i][2], $equipe[$i][3], $equipe[$i][4]); ?>
+                            </div>
+                            <?php
+                        }
+                        ?>
                     </div>
                     <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
+                        <button class="btn btn-round"> <</button>
                     </a>
                     <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
+                        <button class="btn btn-round"> ></button>
                     </a>
                 </div>
             </div>

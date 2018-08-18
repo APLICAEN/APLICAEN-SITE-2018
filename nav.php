@@ -18,7 +18,7 @@
         <div class="collapse navbar-collapse" id="navbarToggler">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Nos prestations</a>
+                    <a class="nav-link" href="prestations.php">Nos prestations</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="team.php">Notre équipe</a>
