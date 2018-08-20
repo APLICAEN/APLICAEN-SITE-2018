@@ -6,7 +6,7 @@
  * Time: 09:40
  */
 ?>
-<nav class="navbar navbar-expand-lg bg-dark fixed-top">
+<nav class="navbar navbar-expand-lg bg-dark fixed-top" style="background-image: url('assets/img/header9bis.png');">
     <div class="container">
         <a class="navbar-brand" href="index.php"><img src="assets/img/logo-aplicaen.png"></a>
 

@@ -62,52 +62,56 @@ function member($nom, $image, $poste, $description, $mail)
         </div>
 
         <div class="card container col-md-10">
-            <div class="col-md-auto">
-                <h1 class="title">Qui sommes nous ?</h1>
-                <hr>
-                <div>
-                    fgngz
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
+            <div class="card-body">
+                <div class="col-md-auto">
+                    <h1 class="title">Qui sommes nous ?</h1>
+                    <hr>
+                    <div>
+                        fgngz
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
 
+                    </div>
                 </div>
             </div>
         </div>
 
         <div class="card container col-md-10">
-
-            <div class="col-md-auto">
-                <h2 class="title">Notre Equipe</h2>
-                <hr>
-                <div id="carousel" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <?php member($equipe[0][0], $equipe[0][1], $equipe[0][2], $equipe[0][3], $equipe[0][4]); ?>
-                        </div>
-                        <?php
-                        for ($i = 1; $i < sizeof($equipe); $i++) {
-                            ?>
-                            <div class="carousel-item">
-                                <?php member($equipe[$i][0], $equipe[$i][1], $equipe[$i][2], $equipe[$i][3], $equipe[$i][4]); ?>
+            <div class="card-body">
+                <div class="col-md-auto">
+                    <h2 class="title">Notre Equipe</h2>
+                    <hr>
+                    <div id="carousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <?php member($equipe[0][0], $equipe[0][1], $equipe[0][2], $equipe[0][3], $equipe[0][4]); ?>
                             </div>
                             <?php
-                        }
-                        ?>
+                            for ($i = 1; $i < sizeof($equipe); $i++) {
+                                ?>
+                                <div class="carousel-item">
+                                    <?php member($equipe[$i][0], $equipe[$i][1], $equipe[$i][2], $equipe[$i][3], $equipe[$i][4]); ?>
+                                </div>
+                                <?php
+                            }
+                            ?>
+                        </div>
+                        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                            <button class="btn btn-round"> <</button>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                            <button class="btn btn-round"> ></button>
+                        </a>
                     </div>
-                    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-                        <button class="btn btn-round"> <</button>
-                    </a>
-                    <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-                        <button class="btn btn-round"> ></button>
-                    </a>
                 </div>
             </div>
+
             <br>
         </div>
 
