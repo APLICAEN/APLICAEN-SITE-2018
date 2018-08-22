@@ -67,20 +67,90 @@ function member($nom, $image, $poste, $description, $mail)
                     <h1 class="title">Qui sommes nous ?</h1>
                     <hr>
                     <div>
-                        fgngz
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
+                        <div class="container">
 
+                            <div class="row">
+                                <p>Blabla bla aplicaen bla bla ensicaen</p>
+                            </div>
+
+
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <br><br>
+                                    <img class="rounded img-fluid" src="assets/img/junior-entreprises.png">
+                                </div>
+                                <div class="col-md-9">
+                                    <h3>Les Junior-Entreprises</h3>
+                                    <p>Une Junior-Entreprise est une association d’étudiants de Grande École qui réalise
+                                        des
+                                        études à caractère pédagogique
+                                        pour des professionnels (entreprises, particuliers, collectivités locales) sur
+                                        le
+                                        modèle des cabinets de conseil
+                                        ou des sociétés de service en ingénierie.</p>
+                                    <p>Les Junior-Entreprises sont des associations loi 1901 à but non lucratif mais à
+                                        vocation économique. Leur intérêt
+                                        est à la fois économique et pédagogique. Les Junior-Entreprises permettent de
+                                        mettre
+                                        en application l’enseignement
+                                        dispensé au sein de leur établissement en réalisant des études pour des
+                                        professionnels. Elles offrent à leurs membres
+                                        une formation aux mécanismes de la gestion d’une entreprise et de management
+                                        d’une
+                                        équipe.</p>
+                                    <h3>La CNJE</h3>
+                                    <p>La Confédération Nationale des Junior-Entreprises (CNJE) est une association loi
+                                        1901
+                                        fédérant les Junior-Entreprises
+                                        françaises. La CNJE conseille et forme les Junior-Entrepreneurs tout en
+                                        coordonnant
+                                        et en animant le mouvement
+                                        des Junior-Entreprises.</p>
+                                    <a href="https://junior-entreprises.com" target="_blank">
+                                        <button type="button" class="btn btn-info btn-round">
+                                            Plus d'informations
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <h3>ENSICAEN</h3>
+                                    <p>L’ENSICAEN, école publique située au coeur du plateau scientifique, au Nord de
+                                        Caen,
+                                        forme des ingénieurs à l’innovation
+                                        et à l’entreprenariat, avec une solide formation scientifique. Vous bénéficiez
+                                        de la
+                                        proximité de nos 6 laboratoires
+                                        de recherche communs (CNRS, CEA, UNICAEN). Les enseignements sont orientés «
+                                        métiers
+                                        » vous garantissent la meilleure
+                                        qualité pour vos projets. À l’ENSICAEN, la formation, la recherche et
+                                        l’entreprise
+                                        interagissent pour former les ingénieurs
+                                        de demain.</p>
+                                    <p>Former des ingénieurs compétents et opérationnels capables de s’adapter aux
+                                        besoins
+                                        d’un monde en perpétuelle évolution,
+                                        telle est l’ambition de l’ENSICAEN.</p>
+                                    <a href="https://ensicaen.fr" target="_blank">
+                                        <button type="button" class="btn btn-info btn-round">
+                                            Plus d'informations
+                                        </button>
+                                    </a>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="assets/img/ensicaen.png" width="200" height="200">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+            <br>
         </div>
+
 
         <div class="card container col-md-10">
             <div class="card-body">

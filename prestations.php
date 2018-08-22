@@ -13,7 +13,7 @@ require_once 'nav.php';
 function prestation($nom, $description, $logo)
 {
     ?>
-    <div class="col-md-4">
+    <div class="col-lg-4 col-md-6">
         <div class="card">
             <img class="card-img-top"
                  src="<?php echo $logo ?>"

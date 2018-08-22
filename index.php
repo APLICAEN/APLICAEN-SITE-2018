@@ -10,7 +10,9 @@
 <?php
 require_once "config.php";
 require_once "nav.php";
-
+?>
+<br><br>
+<?php
 require_once "footer.php";
 ?>
 </html>
