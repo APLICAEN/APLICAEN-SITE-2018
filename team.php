@@ -35,9 +35,11 @@ function member($nom, $image, $poste, $description, $mail)
                 <h3 class="title"> <?php echo $nom ?></h3>
                 <h4><?php echo $poste ?></h4>
                 <p><?php echo $description ?></p>
-                <button type="button" class="btn btn-block btn-info btn-round fixed-bottom">
-                    <a href="<?php echo "mailto:" . $mail ?>">Contacter</a>
-                </button>
+                <a href="<?php echo "mailto:" . $mail ?>">
+                    <button type="button" class="btn btn-block btn-info btn-round fixed-bottom">
+                        Contacter
+                    </button>
+                </a>
             </div>
         </div>
     </div>

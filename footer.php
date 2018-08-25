@@ -13,24 +13,22 @@
         <div class="row">
             <div class="col-sm-6">
                 <h3>
-                    <i class="fa fa-handshake-o" aria-hidden="true"></i> Partenaires</h3>
+                    <i class="fa fa-handshake-o" aria-hidden="true"></i> Partenaires
+                </h3>
                 <a href="http://www.bnpparibas.com/" target="_blank">
                     <img src="assets/img/LOGO-BNP-PARIBAS-blanc-e1456395697982.png">
-                    <a>
-                        <p class="partenaires"></p>
 
-                        <a href="https://www.ensicaen.fr/" target="_blank">
-                            <img src="assets/img/LogoENSICAEN_rectangle_noir_blanc_300dpi.png">
-                            <a>
-                                <p class="partenaires"></p>
-                                <a href="http://njc-caen.fr/" target="_blank">
-                                    <img src="assets/img/njccaen.png">
-                                    <a>
-                                        <p class="partenaires"></p>
-                                        <a href="http://ajir.insa-rouen.fr/" target="_blank">
-                                            <img src="assets/img/ajir.png">
-                                            <a>
-                                                <p class="partenaires"></p>
+                </a>
+                <a href="https://www.ensicaen.fr/" target="_blank">
+                    <img src="assets/img/LogoENSICAEN_rectangle_noir_blanc_300dpi.png">
+                </a>
+                <a href="http://njc-caen.fr/" target="_blank">
+                    <img src="assets/img/njccaen.png">
+                </a>
+                <a href="http://ajir.insa-rouen.fr/" target="_blank">
+                    <img src="assets/img/ajir.png">
+                </a>
+
             </div>
             <div class="col-sm-3">
                 <h3>
@@ -72,11 +70,11 @@
                         <div class="modal-dialog modal-lg">
                             <!-- Modal content-->
                             <div class="modal-content">
-                                <div class="modal-header modal-black">
+                                <div class="modal-header">
                                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                                     <h1>Mentions légales</h1>
                                 </div>
-                                <div class="modal-body modal-black">
+                                <div class="modal-body">
                                     <p>Conformément aux dispositions de l’article 6 III-1 de la loi n° 2004-575 du 21
                                         juin 2004 pour la confiance dans
                                         l’économie numérique, vous trouverez ci-dessous les informations relatives à
@@ -101,7 +99,7 @@
                                     <p>
                                         <strong>Courriel :</strong> contact@aplicaen.fr</p>
                                 </div>
-                                <div class="modal-footer modal-black">
+                                <div class="modal-footer">
                                     <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
                                 </div>
                             </div>
