@@ -10,16 +10,55 @@ require_once "config.php";
 require_once "nav.php";
 
 $equipe = [
-    ["Achille Godineau", "assets/img/photo_equipe/achille.png", "Président", "Blah", "president@aplicaen.fr"],
-    ["Paul Freifer", "assets/img/photo_equipe/paul.png", "Secrétaire Général", " ", "contact@aplicaen.fr"],
-    ["Julien Chevron", "assets/img/photo_equipe/julien.png", "Responsable Suivi d'Etude", " ", "expert@aplicaen.fr"],
-    ["Antoine Dechavanne", "assets/img/photo_equipe/antoine.png", "Responsable Suivi d'Etude", " ", "expert@aplicaen.fr"],
-    ["Mathieu Seraphim", "assets/img/photo_equipe/mathieu.png", "Responsable Qualité", " ", "qualite@aplicaen.fr"],
-    ["Aurélien Arcangeli", "assets/img/photo_equipe/aurelien.png", "Comptable", " ", "tresorier@aplicaen.fr"],
-    ["Chams-eddine El Hayel", "assets/img/photo_equipe/chams.png", "Trésorier", " ", "tresorier@aplicaen.fr"],
-    ["Rémi Lecouillard", "assets/img/photo_equipe/remi.png", "Responsable Communication", " ", "contact@aplicaen.fr"],
-    ["Iliass Fendi", "assets/img/photo_equipe/iliass.png", "Responsable Développement Commercial", " ", "contact@aplicaen.fr"],
-    ["Pierre Chopinet", "assets/img/photo_equipe/pierre.png", "D.S.I.", " ", "dsi@aplicaen.fr"],
+    ["Achille Godineau",
+        "assets/img/photo_equipe/achille.png",
+        "Président",
+        "Être président c'est avoir une compréhension claire de tous les autres postes afin d'être un leader compétent. C'est aussi incarner et porter haut l'image de la Junior et de son école.",
+        "president@aplicaen.fr"],
+    ["Paul Freifer",
+        "assets/img/photo_equipe/paul.png",
+        "Secrétaire Général",
+        "Être secrétaire général, c'est gérer la Junior, tant du point de vue légal que de celui des ressources humaines. Mais c'est aussi assurer la cohésion et la motivation de l'équipe.",
+        "contact@aplicaen.fr"],
+    ["Julien Chevron",
+        "assets/img/photo_equipe/julien.png",
+        "Responsable Suivi d'Etude",
+        "Le RSE assure le bon déroulement d'une étude, de son début jusqu'à sa fin. Il a ainsi pour mission de rédiger les documents administratifs de celle ci.",
+        "expert@aplicaen.fr"],
+    ["Antoine Dechavanne",
+        "assets/img/photo_equipe/antoine.png",
+        "Responsable Suivi d'Etude",
+        "Le responsable suivi d’étude doit faire le lien entre l'entreprise et le chef de projet afin que l'étude se déroule correctement.", "expert@aplicaen.fr"],
+    ["Mathieu Seraphim",
+        "assets/img/photo_equipe/mathieu.png",
+        "Responsable Qualité",
+        "L'erreur est humaine. C'est le rôle de la Qualité de les corriger; mais aussi de s'assurer d'un déroulement optimal des processus de la Junior, et d'en faire état.",
+        "qualite@aplicaen.fr"],
+    ["Aurélien Arcangeli",
+        "assets/img/photo_equipe/aurelien.png",
+        "Comptable",
+        "Être comptable, c'est utiliser la comptabilité pour analyser et piloter la junior. C'est aussi assister le trésorier et assurer un contrôle sur la trésorerie de la junior.",
+        "tresorier@aplicaen.fr"],
+    ["Chams-eddine El Hayel",
+        "assets/img/photo_equipe/chams.png",
+        "Trésorier",
+        "Le trésorier doit s'assurer que la Junior aie suffisamment d'argent pour continuer son activité sans risque. Pour cela, il élabore un budget prévisionnel, s'occupe des déclarations fiscales et sociales de la junior et prend des décisions de la validation ou non des dépenses.",
+        "tresorier@aplicaen.fr"],
+    ["Rémi Lecouillard",
+        "assets/img/photo_equipe/remi.png",
+        "Responsable Communication",
+        "Responsable Communication c'est s'occuper des réseaux sociaux et élaborer des graphismes. Dev'Co c'est démarcher les clients, et comprendre leurs besoins.",
+        "contact@aplicaen.fr"],
+    ["Iliass Fendi",
+        "assets/img/photo_equipe/iliass.png",
+        "Responsable Développement Commercial",
+        " ",
+        "contact@aplicaen.fr"],
+    ["Pierre Chopinet",
+        "assets/img/photo_equipe/pierre.png",
+        "D.S.I.",
+        "Le directeur des systèmes d'information doit s'occuper de tout les services informatique de la junior, aussi bien le site internet que nos outils internes.",
+        "dsi@aplicaen.fr"],
 ];
 
 function member($nom, $image, $poste, $description, $mail)
@@ -63,7 +102,7 @@ function member($nom, $image, $poste, $description, $mail)
             </div>
         </div>
 
-        <div class="card container col-md-10">
+        <div class="card container">
             <div class="card-body">
                 <div class="col-md-auto">
                     <h1 class="title">Qui sommes nous ?</h1>
@@ -154,7 +193,7 @@ function member($nom, $image, $poste, $description, $mail)
         </div>
 
 
-        <div class="card container col-md-10">
+        <div class="card container">
             <div class="card-body">
                 <div class="col-md-auto">
                     <h2 class="title">Notre Equipe</h2>
