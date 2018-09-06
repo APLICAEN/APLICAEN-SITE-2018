@@ -25,14 +25,7 @@ require_once "nav.php";
                 <h3 class="card-title">Notre actualité</h3>
             </div>
             <div class="card-body row">
-                <div class="col-md-4 col-12">
-                    <a class="twitter-timeline" data-height="700"
-                       href="https://twitter.com/aplicaen?ref_src=twsrc%5Etfw">
-                        Tweets by aplicaen
-                    </a>
-                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                </div>
-                <div class="col-md-4 col">
+                <div class="col-md-6 col-12">
                     <a class="twitter-timeline" data-height="700"
                        href="https://twitter.com/aplicaen?ref_src=twsrc%5Etfw">
                         Tweets by aplicaen
@@ -40,7 +33,7 @@ require_once "nav.php";
                     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
 
-                <div class="col-md-4 col">
+                <div class="col-md-6 col">
                     <div id="fb-root"></div>
                     <script>(function (d, s, id) {
                             var js, fjs = d.getElementsByTagName(s)[0];
@@ -52,7 +45,7 @@ require_once "nav.php";
                         }(document, 'script', 'facebook-jssdk'));
                     </script>
                     <div class="fb-page" data-href="https://www.facebook.com/Aplicaen/" data-tabs="timeline"
-                         data-height="700" data-small-header="true" data-adapt-container-width="true"
+                         data-height="700" data-width="1000" data-small-header="true" data-adapt-container-width="true"
                          data-hide-cover="false" data-show-facepile="true">
                         <blockquote cite="https://www.facebook.com/Aplicaen/" class="fb-xfbml-parse-ignore">
                             <a href="https://www.facebook.com/Aplicaen/">APLICAEN</a>
