@@ -5,6 +5,7 @@
  * Date: 27/07/18
  * Time: 09:40
  */
+require_once 'form_etude.php'
 ?>
 <nav class="navbar navbar-expand-lg bg-dark fixed-top" style="background-image: url('assets/img/header9bis.png');">
     <div class="container">
@@ -26,7 +27,7 @@
             </ul>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <button class="btn btn-info btn-round">Demander un devis</button>
+                    <button class="btn btn-info btn-round" data-toggle="modal" data-target="#etudeModal">Demander un devis</button>
                 </li>
             </ul>
         </div>

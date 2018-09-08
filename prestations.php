@@ -18,7 +18,7 @@ function prestation($nom, $description, $logo)
             <img class="card-img-top"
                  src="<?php echo $logo ?>"
                  alt="Card image cap">
-            <div class="card-header ">
+            <div class="card-header">
                 <h4 class="card-title"><?php echo $nom ?></h4>
             </div>
             <div class="card-body">
