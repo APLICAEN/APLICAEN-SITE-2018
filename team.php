@@ -102,7 +102,7 @@ function member($nom, $image, $poste, $description, $mail)
             </div>
         </div>
 
-        <div class="card container">
+        <div class="card container parallax-card">
             <div class="card-body">
                 <div class="col-md-auto">
                     <h1 class="title">Qui sommes nous ?</h1>

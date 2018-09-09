@@ -45,7 +45,7 @@ require_once "config.php";
 
                     <div class="form-group">
                         <label for="telephone">Numéro de téléphone</label>
-                        <input required name="telephone" type="number" class="form-control" id="telephone"
+                        <input name="telephone" type="number" class="form-control" id="telephone"
                                placeholder="Entrez votre numéro de téléphone">
                         <small id="telephone-help" class="form-text text-muted"></small>
                     </div>
@@ -68,21 +68,3 @@ require_once "config.php";
         </div>
     </div>
 </div>
-
-<!--<form id="etudeForm" method="post" action="" enctype="multipart/form-data">
-    <div class="row">
-        <div class="col-md-6 left">
-            <input name="nom" id="nom" class="infos" type="text" required placeholder="Nom"/>
-            <input name="prenom" id="prenom" class="infos" type="text" required placeholder="Prénom"/>
-            <input name="mail" id="mail" class="infos" type="text" required placeholder="Email"
-                   onblur="verifMail(this)"/>
-            <input name="telephone" id="telephone" class="infos" type="text" required placeholder="Téléphone"/>
-        </div>
-        <div class="col-md-6 right">
-            <input name="societe" id="societe" class="infos" type="text" required placeholder="Société"/>
-            <textarea name="message" id="message" class="infos" rows="4" required
-                      placeholder="Description de votre projet"></textarea>
-        </div>
-    </div>
-    <input type="button" id="submitButton" class="btn btn-danger btn-lg" Value="Envoyer" onclick="submitForm()"/>
-</form>-->

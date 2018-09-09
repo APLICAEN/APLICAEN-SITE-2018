@@ -41,7 +41,7 @@ function prestation($nom, $description, $logo)
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container parallax-card">
         <div class="row">
             <?php
             prestation("Site web", "loreme ibgbe bbg ", "https://images.unsplash.com/photo-1517303650219-83c8b1788c4c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bd4c162d27ea317ff8c67255e955e3c8&auto=format&fit=crop&w=2691&q=80");
