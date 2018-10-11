@@ -23,6 +23,7 @@ error_reporting(E_ALL);
           href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="assets/css/material-kit.css?v=2.0.3">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="assets/css/index.css" rel="stylesheet" type="text/css" media="all"/>
 
 
@@ -34,4 +35,3 @@ error_reporting(E_ALL);
     <script src="assets/js/plugins/nouislider.min.js"></script>
     <script src="assets/js/material-kit.js?v=2.0.3"></script>
 </head>
-

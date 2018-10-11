@@ -31,17 +31,26 @@ function prestation($nom, $description, $logo)
 }
 
 ?>
-    <div class="page-header header-filter clear-filter" data-parallax="true"
+    <div class="page-header" data-parallax="true"
          style="background-image: url('assets/img/background_info.jpg'); width: 100%; height: 100%">
-        <div class="container">
+        <div class="container" style="margin-top:-300px;">
             <div class="col-md-8 ml-auto mr-auto">
                 <div class="brand text-center card">
-                    <h1 class="title" style="color: #3c4858">Nos prestations</h1>
+                    <h1 class="title" style="color: #3c4858;">Nos prestations</h1>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container parallax-card">
+
+    <div class="page-header"data-parallax="true"style="background-image: url('assets/img/transition.png'); width: 100%; height: 100%; background-size: cover;background-color: transparent;margin:-450px 0 0 0;">
+      <div class="container">
+        <div class="section text-center">
+          <h1 class="title" style="color:white;margin-top:-5%;">Informatique</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="container parallax-card" style="margin-top:100px;">
         <div class="row">
             <?php
             prestation("Site web", "loreme ibgbe bbg ", "https://images.unsplash.com/photo-1517303650219-83c8b1788c4c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bd4c162d27ea317ff8c67255e955e3c8&auto=format&fit=crop&w=2691&q=80");
@@ -63,4 +72,4 @@ function prestation($nom, $description, $logo)
 
 require_once 'footer.php';
 
-
+?>

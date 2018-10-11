@@ -91,18 +91,20 @@ function member($nom, $image, $poste, $description, $mail)
 
 ?>
     <section>
-        <div class="page-header header-filter clear-filter" data-parallax="true"
-             style="background-image: url('assets/img/photo_groupe.png'); width: 100%; height: 100%">
-            <div class="container">
-                <div class="col-md-8 ml-auto mr-auto">
-                    <div class="brand text-center">
-                        <h1 class="title">Notre Equipe</h1>
-                    </div>
-                </div>
-            </div>
+        <div class="page-header" data-parallax="true"
+             style="background-image: url('assets/img/photo_groupe.png'); width: 100%; height: 100%;">
         </div>
 
-        <div class="card container parallax-card">
+        <div class="page-header"data-parallax="true"style="background-image: url('assets/img/transition.png'); width: 100%; height: 100%; background-size: cover;background-color: transparent;margin:-450px 0 0 0;">
+          <div class="container">
+            <div class="section text-center">
+              <h1 class="title" style="color:white;margin-top:-5%;">Notre Equipe</h2>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="card container parallax-card" style="margin-top:100px;">
             <div class="card-body">
                 <div class="col-md-auto">
                     <h1 class="title">Qui sommes nous ?</h1>
