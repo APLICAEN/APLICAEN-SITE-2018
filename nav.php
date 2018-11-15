@@ -11,7 +11,7 @@ require_once 'form_etude.php'
     <div class="container">
         <a class="navbar-brand" href="index.php"><img src="assets/img/logo-aplicaen.png"></a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+        <button class="navbar-toggler bg-inverse" type="button" data-toggle="collapse" data-target="#navbarToggler"
                 aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>

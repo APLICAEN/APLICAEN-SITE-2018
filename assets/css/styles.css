@@ -1,0 +1,33 @@
+.body_renderer {
+    background: #151618;
+    color: #FFF;
+    margin: 0;
+}
+
+.vignette {
+    background-image: -webkit-radial-gradient(50% 50%, ellipse, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 1) 100%);
+    background-image: radial-gradient(50% 50%, ellipse, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 1) 100%);
+}
+
+.container_gl {
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
+
+.noise {
+    background-image: url(../graphics/noise.png);
+    opacity: 0.075;
+}
+
+.hide {
+    opacity: 0;
+}
+
+.overlay {
+    pointer-events: none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
