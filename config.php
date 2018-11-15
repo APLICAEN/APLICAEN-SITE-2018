@@ -34,4 +34,6 @@ error_reporting(E_ALL);
     <script src="assets/js/plugins/moment.min.js"></script>
     <script src="assets/js/plugins/nouislider.min.js"></script>
     <script src="assets/js/material-kit.js?v=2.0.3"></script>
+      <script type="text/javascript" id="hs-script-loader" async defer src="https://js.hs-scripts.com/4943839.js"></script>
+
 </head>
