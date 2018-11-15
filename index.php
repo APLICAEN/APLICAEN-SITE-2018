@@ -13,7 +13,9 @@ require_once "nav.php";
 
 ?>
 <section>
-
+    <?php
+    require_once 'aplicaen.php';
+    ?>
 </section>
 <br>
 <br>
