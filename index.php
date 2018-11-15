@@ -10,14 +10,15 @@
 <?php
 require_once "config.php";
 require_once "nav.php";
+
 ?>
 <section>
-    <br>
-    <br>
-    <br>
-    <br>
+    <?php
+    require_once 'aplicaen.php';
+    ?>
 </section>
-
+<br>
+<br>
 <section id="actu">
     <div class="container">
         <div class="card">

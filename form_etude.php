@@ -11,7 +11,7 @@ require_once "config.php";
 <div class="modal fade" id="etudeModal" tabindex="-1" role="dialog" style="margin-top: 10px">
     <div class="modal-dialog" role="document">
         <div class="modal-content card">
-            <div class="modal-header card-header card-header-primary">
+            <div class="modal-header card-header card-header-info">
                 <div class="col-10">
                     <h2 class="modal-title card-title" id="exampleModalLongTitle">Demande de devis</h2>
                 </div>
@@ -61,7 +61,7 @@ require_once "config.php";
                         <label for="message">Description de votre projet</label>
                         <textarea required name="message" class="form-control" id="message" rows="4"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-round btn-block btn-primary">Envoyer</button>
+                    <button type="submit" class="btn btn-round btn-block btn-info">Envoyer</button>
                 </form>
             </div>
 
